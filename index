@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MSE - Music Sheet Editor</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">🎵</div> <!-- Replace with your logo -->
+        <button id="theme-toggle">🌙</button>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Music Sheet Editor for GDevelop</h1>
+            <p>Create, edit, and integrate music sheets effortlessly.</p>
+            <div class="video-container">
+                <iframe width="560" height="315" 
+                    src="https://www.youtube.com/embed/YOUR_VIDEO_ID" 
+                    frameborder="0" allowfullscreen>
+                </iframe>
+            </div>
+            <a href="#features" class="btn">Learn More</a>
+        </section>
+    </main>
+
+    <script>
+        // Light/Dark Mode Toggle
+        const toggleBtn = document.getElementById('theme-toggle');
+        toggleBtn.addEventListener('click', () => {
+            document.body.classList.toggle('dark-mode');
+        });
+    </script>
+</body>
+</html>
